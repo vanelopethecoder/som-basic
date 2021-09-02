@@ -157,8 +157,6 @@ public class NodeMaestro {
     private Behavior<Command> findNeighboursBehavior(ActorContext<Command> context) {
 
         this.nodePathMaps.forEach((baseActorRef, particleProperties) -> {
-//            Map<Integer, Integer> bmuVectorPoints = new HashMap(
-//                    Map.of(this.nodePathMaps.get(this.bmu).getX(), this.nodePathMaps.get(bmu).getY()));
 
             ArrayList<Integer> bmuVectorPoints = new ArrayList();
             bmuVectorPoints.add(this.nodePathMaps.get(bmu).getX());

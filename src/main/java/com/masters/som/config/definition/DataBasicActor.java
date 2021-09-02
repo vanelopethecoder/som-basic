@@ -11,12 +11,17 @@ import akka.actor.typed.receptionist.ServiceKey;
 import com.masters.som.config.NodeMaestro;
 import scala.collection.immutable.List;
 
+import java.io.BufferedReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class DataBasicActor extends AbstractBehavior<DataBasicActor.BaseDataCmd> {
 
@@ -45,7 +50,13 @@ public class DataBasicActor extends AbstractBehavior<DataBasicActor.BaseDataCmd>
         this.nodeMaestro = nodeMaestro;
 
         this.myName = myName;
-        this.initiatliseInputVectorMap();
+
+        // use input values from within the application
+//        this.initiatliseInputVectorMap();
+        readInputDataFromFile();
+
+
+
         this.listingResponseAdapter =
                 context.messageAdapter(Receptionist.Listing.class, ListingResponse::new);
 
@@ -99,6 +110,29 @@ public class DataBasicActor extends AbstractBehavior<DataBasicActor.BaseDataCmd>
         fileWriter.close();
 
 
+    }
+
+    public void readInputDataFromFile() throws IOException {
+
+        Path path = Paths.get("inputData.txt");
+
+        BufferedReader reader = Files.newBufferedReader(path);
+
+        this.features = new HashMap<>();
+
+        AtomicInteger atomicInteger = new AtomicInteger();
+        atomicInteger.getAndSet(1);
+
+       reader.lines().forEach(s -> {
+           ArrayList<Integer> ints = new ArrayList();
+          String[] arr = s.split(",");
+           arr[0] = arr[0].substring(1);
+           arr[1] = arr[1].substring(0,arr[1].length()-1);
+            ints.add(Integer.parseInt(arr[0].trim()));
+            ints.add(Integer.parseInt(arr[1].trim()));
+            this.features.put(atomicInteger.get(), ints);
+            atomicInteger.getAndIncrement();
+       });
     }
 
 // when should we spawn the data actors??? when we need them? should the nodes spawn them as need be?
