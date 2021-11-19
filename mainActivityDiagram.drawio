@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T11:50:56.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="I3mLm91LlflqOQTdx_Eh" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-19T13:37:31.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="1Dpwt1uT1TgOn-6FUmDg" version="15.7.4" type="github">
   <diagram id="ylAyNTXU45JpMREwfZHR" name="Page-1">
-    <mxGraphModel dx="1239" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -313,26 +313,25 @@
         <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-57" value="&amp;nbsp;All distances returned" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1205" y="1880" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-58" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZkyLK1sEt4H9wOnHN_3Q-57" target="ZkyLK1sEt4H9wOnHN_3Q-100">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1000" y="1893.33" as="targetPoint" />
-            <mxPoint x="1205" y="1893.33" as="sourcePoint" />
+            <mxPoint x="1090" y="1640" as="targetPoint" />
+            <mxPoint x="1115" y="1770.04" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="1100" y="1892.92" />
-              <mxPoint x="1100" y="1892.92" />
+              <mxPoint x="1205" y="1750" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-59" value="calculate learning rate" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="840" y="1875" width="160" height="40" as="geometry" />
+          <mxGeometry x="840" y="1880" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="919.29" y="2026.67" as="targetPoint" />
-            <mxPoint x="919.29" y="1915" as="sourcePoint" />
+            <mxPoint x="919" y="1915" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="919.71" y="1935" />
-              <mxPoint x="919.71" y="1935" />
+              <mxPoint x="919" y="1970" />
+              <mxPoint x="919" y="1970" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -534,6 +533,22 @@
             <mxPoint x="640" y="159.8699999999999" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1076" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-99" value="&lt;span style=&quot;background-color: rgb(255 , 0 , 128)&quot;&gt;Add in process of finding neighbourhood&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1950" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-100" value="findNeighbourhood" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1730" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-101" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="919.29" y="1881.67" as="targetPoint" />
+            <mxPoint x="919.29" y="1770" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="919.71" y="1790" />
+              <mxPoint x="919.71" y="1790" />
             </Array>
           </mxGeometry>
         </mxCell>
