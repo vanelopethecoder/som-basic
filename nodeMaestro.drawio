@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-24T14:45:00.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="FLllRdhMDZidj6sDLYOz" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-24T14:45:18.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="LrWGYsunotrL0Bm_PCwG" version="15.8.3" type="github">
   <diagram id="39YjE3SLRDVz2EWh9CO7" name="Page-1">
     <mxGraphModel dx="1483" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -178,6 +178,9 @@
         </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-54" value="Confirmation received state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FF66B3;" vertex="1" parent="1">
           <mxGeometry x="70" y="785" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-58" value="Note to self - fix all blocks for states" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FF66B3;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
