@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T13:18:56.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="WnoPgDoR5Wwtz4k_1cvV" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T20:16:06.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="t4pIMXEUC6wOrcIjzyUB" version="15.8.3" type="github">
   <diagram id="39YjE3SLRDVz2EWh9CO7" name="Page-1">
     <mxGraphModel dx="1221" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,14 +120,13 @@
         <mxCell id="mlNa0WtkvahHxnJr3UIz-41" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Tell neighbourhood to adjust&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="423.75" y="665" width="175" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0.857;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mlNa0WtkvahHxnJr3UIz-60">
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.024;entryY=0.183;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mlNa0WtkvahHxnJr3UIz-56" target="mlNa0WtkvahHxnJr3UIz-60">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="370" as="targetPoint" />
+            <mxPoint x="400" y="490" as="targetPoint" />
             <mxPoint x="429" y="220" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="429" y="220" />
-              <mxPoint x="330" y="220" />
-              <mxPoint x="330" y="377" />
+              <mxPoint x="526" y="430" />
+              <mxPoint x="400" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -181,8 +180,11 @@
         <mxCell id="mlNa0WtkvahHxnJr3UIz-59" value="&lt;span&gt;&lt;b&gt;Initialization complete&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="105" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-66" value="&lt;b&gt;Initializing&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-66" value="&lt;b&gt;Initializing state&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="210" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-67" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;b&gt;Distance calculations from feature vector complete&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="132.63" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
