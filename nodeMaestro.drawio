@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T13:03:32.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="gr0Hbmx2W6JHd_cDvm-t" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T13:09:29.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ri4WVIQ8BnLs-PmINsBI" version="15.8.3" type="github">
   <diagram id="39YjE3SLRDVz2EWh9CO7" name="Page-1">
     <mxGraphModel dx="1221" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-63" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FF66B3;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="715" width="260" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-62" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FF66B3;" vertex="1" parent="1">
+          <mxGeometry x="440" y="550" width="230" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-60" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FF66B3;" vertex="1" parent="1">
           <mxGeometry x="160" y="370" width="210" height="270" as="geometry" />
         </mxCell>
@@ -98,9 +104,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-38" value="change state 3" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=100;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="460" y="540" width="190" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-39" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Tell BMU to adjust&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="460" y="585" width="175" height="40" as="geometry" />
         </mxCell>
@@ -128,7 +131,7 @@
         </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-43" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.556;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="457" y="680" as="targetPoint" />
+            <mxPoint x="440" y="680" as="targetPoint" />
             <mxPoint x="281.1999999999998" y="642.3200000000002" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="280" y="642" />
@@ -136,34 +139,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-44" value="5" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=100;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="170" y="705" width="260" height="165" as="geometry" />
-        </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-45" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;Receive confirmation from BMU and neighbourhood that weights are adjusted&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="177.5" y="750" width="232.5" height="100" as="geometry" />
+          <mxGeometry x="123.75" y="750" width="232.5" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=1;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mlNa0WtkvahHxnJr3UIz-38" target="mlNa0WtkvahHxnJr3UIz-44">
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=1;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mlNa0WtkvahHxnJr3UIz-63">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="498.1" y="873.3399999999999" as="targetPoint" />
-            <mxPoint x="540" y="750" as="sourcePoint" />
+            <mxPoint x="430" y="785.52" as="targetPoint" />
+            <mxPoint x="507.5" y="720" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="508" y="786" />
+              <mxPoint x="507" y="786" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=1.007;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mlNa0WtkvahHxnJr3UIz-56">
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=1.007;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.697;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mlNa0WtkvahHxnJr3UIz-63" target="mlNa0WtkvahHxnJr3UIz-56">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="694.44" y="90.00000000000007" as="targetPoint" />
             <mxPoint x="434" y="830" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="434" y="830" />
               <mxPoint x="710" y="830" />
               <mxPoint x="710" y="111" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-48" value="&lt;b&gt;input vector&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;distance calculation state&lt;/span&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="508.75" y="90" width="107.5" height="40" as="geometry" />
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-48" value="&lt;b&gt;Input vector&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;distance calculation state&lt;/span&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="493.75" y="90" width="141.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-51" value="&lt;span style=&quot;background-color: rgb(255 , 102 , 179)&quot;&gt;BMU distance calulcation&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="379" y="440" width="70" height="40" as="geometry" />
@@ -171,14 +170,14 @@
         <mxCell id="mlNa0WtkvahHxnJr3UIz-52" value="&lt;span style=&quot;background-color: rgb(255 , 102 , 179)&quot;&gt;Adjusting nodes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="610" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-54" value="Confirmation received state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FF66B3;" vertex="1" parent="1">
-          <mxGeometry x="70" y="785" width="60" height="30" as="geometry" />
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-54" value="&lt;b&gt;Confirmation received state&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="720" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-58" value="Note to self - fix all blocks for states" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FF66B3;" vertex="1" parent="1">
           <mxGeometry x="50" y="50" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-59" value="initialisation complete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FF66B3;" vertex="1" parent="1">
-          <mxGeometry x="370" y="100" width="60" height="30" as="geometry" />
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-59" value="&lt;span style=&quot;&quot;&gt;initialisation complete&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
