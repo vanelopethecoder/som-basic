@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T20:19:44.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="jKuAZasUFz3cUunHa69A" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-28T23:01:26.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="8h-a1vtF4DEcIBMcQYqK" version="15.8.3" type="github">
   <diagram id="39YjE3SLRDVz2EWh9CO7" name="Page-1">
     <mxGraphModel dx="1483" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,7 +162,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-48" value="&lt;b&gt;Input vector&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;distance calculation state&lt;/span&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-48" value="&lt;b&gt;Input vector&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;distance calculation&amp;nbsp;&lt;/span&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="459.25" y="80" width="141.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-51" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;b&gt;BMU distance calulcation&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -171,13 +171,13 @@
         <mxCell id="mlNa0WtkvahHxnJr3UIz-52" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Adjusting nodes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="430" y="550" width="162.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-54" value="&lt;b&gt;Confirmation received state&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-54" value="&lt;b&gt;Confirmation received&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="152.5" y="720" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-59" value="&lt;span&gt;&lt;b&gt;Initialization complete&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="320" y="105" width="110" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="mlNa0WtkvahHxnJr3UIz-66" value="&lt;b&gt;Initializing state&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="mlNa0WtkvahHxnJr3UIz-66" value="&lt;b&gt;Initializing&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="210" y="70" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mlNa0WtkvahHxnJr3UIz-67" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;font face=&quot;helvetica&quot;&gt;&lt;b&gt;Distance calculations from feature vector complete&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
