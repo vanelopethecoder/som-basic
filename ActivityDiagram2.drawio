@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T00:01:32.149Z" agent="5.0 (Windows)" etag="wx47G-GfA0ombEogSzLe" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T00:03:19.581Z" agent="5.0 (Windows)" etag="naecIKWc8AgRvjrAftEf" version="15.8.2" type="github">
   <diagram id="KT-87yykqK8TVKUzaxC3" name="Page-1">
     <mxGraphModel dx="211" dy="-1774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,7 +128,7 @@
           <mxGeometry x="1300" y="2750" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LN7OU6Dx7ajpe7y_HlBM-19" value="[All nodes in neighbourhood not confirmed that weights are adjusted]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1025" y="2790" width="180" height="30" as="geometry" />
+          <mxGeometry x="1025" y="2820" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LN7OU6Dx7ajpe7y_HlBM-20" value="[Termination criteria reached]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1010" y="2910" width="180" height="30" as="geometry" />
@@ -153,6 +153,19 @@
         </mxCell>
         <mxCell id="LN7OU6Dx7ajpe7y_HlBM-6" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1215" y="2750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_mFUUYPiHRBAVBRhQgEM-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LN7OU6Dx7ajpe7y_HlBM-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="2690" as="targetPoint" />
+            <mxPoint x="910.5" y="2650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="950" y="2770" />
+              <mxPoint x="950" y="2770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_mFUUYPiHRBAVBRhQgEM-2" value="[Termination criteria reached]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="810" y="2760" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
