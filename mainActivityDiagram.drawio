@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T00:11:53.360Z" agent="5.0 (Windows)" etag="SCIedJT7--GP0L2pVWpe" version="15.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-29T14:39:25.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="JmldO2B90Flweek4Trs1" version="15.8.3" type="github">
   <diagram id="ylAyNTXU45JpMREwfZHR" name="Page-1">
-    <mxGraphModel dx="1038" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,7 +177,7 @@
         <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-59" value="Calculate learning rate" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="80" y="1000" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0.544;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="ZkyLK1sEt4H9wOnHN_3Q-61">
+        <mxCell id="ZkyLK1sEt4H9wOnHN_3Q-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0.544;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ZkyLK1sEt4H9wOnHN_3Q-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="1095" as="targetPoint" />
             <mxPoint x="159.5" y="1040" as="sourcePoint" />
@@ -389,12 +389,18 @@
         <mxCell id="R9mxItDzNMSXBVZuEwp5-89" value="&lt;span&gt;[All distances returned]&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="234" y="910" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lr6wVRkl9GFqRxh5kKbP-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="lr6wVRkl9GFqRxh5kKbP-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="466" y="1130" as="targetPoint" />
             <mxPoint x="430" y="1109.5" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ldgma1aaiIglmO_Dd4ts-1" value="SendSignalAction1" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="632.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ldgma1aaiIglmO_Dd4ts-2" value="Receive features" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="250" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
