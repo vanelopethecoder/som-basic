@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-30T11:39:02.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="FVqAims3hGWnYVvN3oRE" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T11:42:43.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="RiicNZBfflQd0UjmwxmE" version="15.8.3" type="github">
   <diagram id="KT-87yykqK8TVKUzaxC3" name="Page-1">
     <mxGraphModel dx="1221" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,12 +158,9 @@
         <mxCell id="_mFUUYPiHRBAVBRhQgEM-3" value="&lt;b&gt;Find next feature vector&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;direction=south;" parent="1" vertex="1">
           <mxGeometry x="870" y="2900" width="40" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="_mFUUYPiHRBAVBRhQgEM-5" value="&lt;b&gt;Send features to node actors&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1096.25" y="3040" width="157.5" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_mFUUYPiHRBAVBRhQgEM-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1" target="_mFUUYPiHRBAVBRhQgEM-5">
+        <mxCell id="_mFUUYPiHRBAVBRhQgEM-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="3000" as="targetPoint" />
+            <mxPoint x="1096.25" y="3050" as="targetPoint" />
             <mxPoint x="910" y="3050" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
@@ -273,14 +270,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-33" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 5px ; text-align: left&quot;&gt;&lt;b&gt;SOM phase 1&lt;/b&gt;&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=95;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;" vertex="1" parent="1">
-          <mxGeometry x="1437.5" y="3030" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="45yZecYVdpde9K0zM8W2-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1440" y="3059.29" as="targetPoint" />
-            <mxPoint x="1253.75" y="3059.29" as="sourcePoint" />
-            <Array as="points" />
-          </mxGeometry>
+          <mxGeometry x="1095" y="3010" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-37" value="Receive message to adjust" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="860" y="2450" width="130" height="40" as="geometry" />
