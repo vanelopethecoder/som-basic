@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T22:27:02.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="OXGR955G089mgB7-AXop" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-01T22:53:26.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="POAgWSZOXXmDCAJ-xyqH" version="15.8.3" type="github">
   <diagram id="KT-87yykqK8TVKUzaxC3" name="Page-1">
     <mxGraphModel dx="1483" dy="-402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,15 +25,12 @@
         <mxCell id="_mFUUYPiHRBAVBRhQgEM-2" value="&lt;b&gt;[Termination criteria not&amp;nbsp;reached]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="2000" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="45yZecYVdpde9K0zM8W2-2" value="&lt;b&gt;Receive node distances from BMU&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1220" width="350" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-3" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="414" y="1290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="45yZecYVdpde9K0zM8W2-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="45yZecYVdpde9K0zM8W2-3" target="45yZecYVdpde9K0zM8W2-2">
+        <mxCell id="45yZecYVdpde9K0zM8W2-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="45yZecYVdpde9K0zM8W2-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1380" y="2310" as="targetPoint" />
+            <mxPoint x="670" y="1240" as="targetPoint" />
             <mxPoint x="1380" y="2300" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="690" y="1330" />
@@ -92,9 +89,9 @@
         <mxCell id="45yZecYVdpde9K0zM8W2-31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 5px ; text-align: left&quot;&gt;&lt;b&gt;REF&amp;nbsp;&lt;/b&gt;&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=95;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="1200" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="45yZecYVdpde9K0zM8W2-32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="45yZecYVdpde9K0zM8W2-31" target="45yZecYVdpde9K0zM8W2-2">
+        <mxCell id="45yZecYVdpde9K0zM8W2-32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="45yZecYVdpde9K0zM8W2-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1310" y="2180" as="targetPoint" />
+            <mxPoint x="320" y="1240" as="targetPoint" />
             <mxPoint x="1160" y="2080" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="280" y="1240" />
@@ -314,6 +311,9 @@
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-91" value="Receive confirmation neighbourhood Node weights are adjusted" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="350" y="1830" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="45yZecYVdpde9K0zM8W2-98" value="Receive node distances from BMU" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="1210" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
