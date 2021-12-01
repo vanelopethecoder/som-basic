@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T12:56:14.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="mmt0nHqjpmGm_b37T-t_" version="15.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-01T12:58:26.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="4-yL7Lyno1N3-ZJKtRVJ" version="15.8.3" type="github">
   <diagram id="KT-87yykqK8TVKUzaxC3" name="Page-1">
-    <mxGraphModel dx="1038" dy="-586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="-586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LN7OU6Dx7ajpe7y_HlBM-18" value="&lt;b&gt;[All nodes in neighbourhood not confirmed that weights are adjusted]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="610" y="1940" width="180" height="30" as="geometry" />
+          <mxGeometry x="550" y="1910" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LN7OU6Dx7ajpe7y_HlBM-20" value="&lt;b&gt;[Termination criteria reached]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="300" y="2000" width="154" height="30" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="30" y="1490" width="780" height="8.33" as="geometry" />
         </mxCell>
         <mxCell id="_mFUUYPiHRBAVBRhQgEM-2" value="&lt;b&gt;[Termination criteria not&amp;nbsp;reached]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;rotation=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="1970" width="100" height="30" as="geometry" />
+          <mxGeometry x="20" y="2000" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-2" value="&lt;b&gt;Receive node distances from BMU&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="320" y="1220" width="350" height="40" as="geometry" />
@@ -99,7 +99,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-33" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 5px ; text-align: left&quot;&gt;&lt;b&gt;REF&lt;/b&gt;&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=95;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="374" y="2140" width="160" height="80" as="geometry" />
+          <mxGeometry x="390" y="2130" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-37" value="Node 1: &#xa;Receive message to adjust" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="1530" width="210" height="60" as="geometry" />
@@ -132,9 +132,8 @@
             <mxPoint x="183" y="1530" as="targetPoint" />
             <mxPoint x="183" y="1494" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="182" y="1530" />
-              <mxPoint x="184" y="1530" />
-              <mxPoint x="184" y="1590" />
+              <mxPoint x="183" y="1530" />
+              <mxPoint x="183" y="1530" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -171,27 +170,26 @@
         <mxCell id="45yZecYVdpde9K0zM8W2-57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="45yZecYVdpde9K0zM8W2-58">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="409.42" y="1830" as="targetPoint" />
-            <mxPoint x="230" y="1860" as="sourcePoint" />
+            <mxPoint x="470" y="1882" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="146" y="1920" />
-              <mxPoint x="470" y="1920" />
+              <mxPoint x="470" y="1882" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-58" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="430" y="1950" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="45yZecYVdpde9K0zM8W2-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="45yZecYVdpde9K0zM8W2-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.027;entryY=0.612;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="45yZecYVdpde9K0zM8W2-91">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="804" y="1910" as="targetPoint" />
-            <mxPoint x="550" y="1950" as="sourcePoint" />
+            <mxPoint x="754" y="1840" as="targetPoint" />
+            <mxPoint x="510" y="1990" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="550" y="1910" />
-              <mxPoint x="794" y="1910" />
+              <mxPoint x="754" y="1990" />
+              <mxPoint x="754" y="1861" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="45yZecYVdpde9K0zM8W2-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;startArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="45yZecYVdpde9K0zM8W2-58" target="45yZecYVdpde9K0zM8W2-61">
+        <mxCell id="45yZecYVdpde9K0zM8W2-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;startArrow=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="45yZecYVdpde9K0zM8W2-58" target="45yZecYVdpde9K0zM8W2-61">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="1875" as="targetPoint" />
             <mxPoint x="370" y="1875" as="sourcePoint" />
@@ -221,8 +219,6 @@
             <mxPoint x="150" y="2080" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="100" y="2170" />
-              <mxPoint x="336" y="2170" />
-              <mxPoint x="336" y="2180" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -239,13 +235,13 @@
           <mxGeometry x="590" y="2020" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-69" value="&lt;b&gt;[All nodes in neighbourhood confirmed that weights are adjusted]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="219" y="1900" width="141" height="20" as="geometry" />
+          <mxGeometry x="-0.5" y="1880" width="141" height="20" as="geometry" />
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-71" value="&lt;b style=&quot;font-size: 12px ; text-align: left&quot;&gt;SOM phase 1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="70" y="1240" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-75" value="&lt;b style=&quot;font-size: 12px ; text-align: left&quot;&gt;SOM phase 1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="414" y="2170" width="86" height="30" as="geometry" />
+          <mxGeometry x="434" y="2155" width="86" height="30" as="geometry" />
         </mxCell>
         <mxCell id="45yZecYVdpde9K0zM8W2-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;strokeWidth=2;" edge="1" parent="1" source="45yZecYVdpde9K0zM8W2-75" target="45yZecYVdpde9K0zM8W2-75">
           <mxGeometry relative="1" as="geometry" />
@@ -261,8 +257,7 @@
             <mxPoint x="401" y="1530" as="targetPoint" />
             <mxPoint x="399.9999999999998" y="1493.94" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="400" y="1530" />
-              <mxPoint x="401" y="1540" />
+              <mxPoint x="401" y="1494" />
             </Array>
           </mxGeometry>
         </mxCell>
