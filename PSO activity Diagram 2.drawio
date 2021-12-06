@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T23:45:56.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="4Eg7GZWKZuzElHph9DdJ" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-06T23:53:05.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Xvnet5n33DnxhU1XRacB" version="15.9.1" type="github">
   <diagram id="xlOCqbv3J9YG_qh07RI9" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,8 +155,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xODYXfQhKV8Ah3ee-2qh-79" value="Receive confirmation from particles that iteration is complete" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
-          <mxGeometry x="334" y="980" width="140" height="40" as="geometry" />
+        <mxCell id="xODYXfQhKV8Ah3ee-2qh-79" value="Receive confirmation from particles that iteration is complete" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="51.5" y="990" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pi3bbSPv9wK64zZ6astG-33" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -355,22 +355,79 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pi3bbSPv9wK64zZ6astG-67" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;" edge="1" parent="1">
+        <mxCell id="pi3bbSPv9wK64zZ6astG-67" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.445;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pi3bbSPv9wK64zZ6astG-69" target="xODYXfQhKV8Ah3ee-2qh-79">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="418" y="980" as="targetPoint" />
-            <mxPoint x="417.5" y="920" as="sourcePoint" />
+            <mxPoint x="120" y="990" as="targetPoint" />
+            <mxPoint x="570" y="1040" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="417.5" y="970" />
-              <mxPoint x="417.5" y="970" />
+              <mxPoint x="129" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pi3bbSPv9wK64zZ6astG-68" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;exitX=0;exitY=0.5;exitDx=12;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xODYXfQhKV8Ah3ee-2qh-79">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="1000" as="targetPoint" />
+            <mxPoint x="290" y="1010" as="targetPoint" />
             <mxPoint x="560" y="1000" as="sourcePoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-69" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="290" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-70" value="&lt;b&gt;[Threshold not returned]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211.5" y="940" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-72" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84.5" y="988.33" as="targetPoint" />
+            <mxPoint x="84" y="928.33" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="978.33" />
+              <mxPoint x="84" y="978.33" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-74" value="&lt;b&gt;[Threshold&amp;nbsp; returned]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="970" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-76" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;exitX=0;exitY=0.5;exitDx=12;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480.5" y="1009.5" as="targetPoint" />
+            <mxPoint x="370" y="1009.5" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-77" value="" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-78" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;exitX=0;exitY=0.5;exitDx=12;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670.5" y="1009.5" as="targetPoint" />
+            <mxPoint x="560" y="1009.5" as="sourcePoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-79" value="&lt;b&gt;[Termination criteria reached]&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="970" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-80" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="670" y="995" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-81" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="1100" as="targetPoint" />
+            <mxPoint x="519.5" y="1050" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1090" />
+              <mxPoint x="520" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-82" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; margin-left: 5px ; text-align: left&quot;&gt;&lt;b&gt;REf&amp;nbsp;&lt;/b&gt;&lt;/p&gt;" style="html=1;shape=mxgraph.sysml.package;overflow=fill;labelX=95;align=left;spacingLeft=5;verticalAlign=top;spacingTop=-3;fontSize=10;strokeColor=#000000;strokeWidth=2;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1060" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pi3bbSPv9wK64zZ6astG-83" value="&lt;b&gt;PSO 1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1090" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
