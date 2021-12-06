@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T13:53:26.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.8.9" etag="xDiiPYMgEByjSs7aOq0G" type="github"><diagram id="o7CnlwriqrgJlkFAMORM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-06T14:03:58.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="E_Hjvr1WEFiVXV8cib0w" version="15.8.9" type="github">
+  <diagram id="o7CnlwriqrgJlkFAMORM" name="Page-1">
+    <mxGraphModel dx="1038" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h_NruhMYLR7X871ljR6K-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" edge="1" parent="1" source="h_NruhMYLR7X871ljR6K-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-3" value="&lt;b&gt;Spawn particle actors&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="45" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-4" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;b&gt;send message to particles to &lt;br&gt;go into receiving state&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="400" y="37.5" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=27.5;entryPerimeter=0;" edge="1" parent="1" target="h_NruhMYLR7X871ljR6K-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="64.5" as="targetPoint" />
+            <mxPoint x="280" y="64.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.743;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480.18" y="139.4" as="targetPoint" />
+            <mxPoint x="470.00000000000017" y="92.54080999999988" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="480.18" y="92.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#000000;strokeColor=none;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="710" height="8.33" as="geometry" />
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.743;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120.18000000000006" y="195.22999999999996" as="targetPoint" />
+            <mxPoint x="110.00000000000023" y="148.37080999999984" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120.18" y="148.23000000000002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.743;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360.18000000000006" y="195.22999999999996" as="targetPoint" />
+            <mxPoint x="350.0000000000002" y="148.37080999999984" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="360.18" y="148.23000000000002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0.743;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640.1800000000001" y="195.22999999999996" as="targetPoint" />
+            <mxPoint x="630.0000000000002" y="148.37080999999984" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="640.1800000000001" y="148.23000000000002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-11" value="Node 1 : receive message to go into receiving state" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-12" value="Node 2 : receive message to go into receiving state" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-13" value="Node (n) : receive message to go into receiving state" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h_NruhMYLR7X871ljR6K-14" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0.5;exitDx=12;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="219.5" as="sourcePoint" />
+            <mxPoint x="560" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
