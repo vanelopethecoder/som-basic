@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-06T23:53:05.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="Xvnet5n33DnxhU1XRacB" version="15.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-06T23:53:41.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="kQxoJVIdyFzAPLWKhffo" version="15.9.1" type="github">
   <diagram id="xlOCqbv3J9YG_qh07RI9" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
         <mxCell id="xODYXfQhKV8Ah3ee-2qh-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#000000;strokeColor=none;direction=north;" parent="1" vertex="1">
           <mxGeometry x="43" y="920" width="750" height="8.33" as="geometry" />
         </mxCell>
-        <mxCell id="xODYXfQhKV8Ah3ee-2qh-73" value="&lt;b&gt;Tell node master &lt;br&gt;that this particle&amp;nbsp;is&amp;nbsp;&lt;br&gt;&amp;nbsp;complete with iteration&lt;/b&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="xODYXfQhKV8Ah3ee-2qh-73" value="&lt;b&gt;Tell node master &lt;br&gt;that this particle&amp;nbsp;is&amp;nbsp;&lt;br&gt;&amp;nbsp;complete with iteration&lt;/b&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="43" y="800" width="187" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xODYXfQhKV8Ah3ee-2qh-76" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;" parent="1" edge="1">
@@ -155,7 +155,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xODYXfQhKV8Ah3ee-2qh-79" value="Receive confirmation from particles that iteration is complete" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="xODYXfQhKV8Ah3ee-2qh-79" value="Receive confirmation from particles that iteration is complete" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;fontStyle=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="51.5" y="990" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pi3bbSPv9wK64zZ6astG-33" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1">
@@ -239,7 +239,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pi3bbSPv9wK64zZ6astG-46" value="&lt;b&gt;Tell node master &lt;br&gt;that this particle&amp;nbsp;is&amp;nbsp;&lt;br&gt;&amp;nbsp;complete with iteration&lt;/b&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="pi3bbSPv9wK64zZ6astG-46" value="&lt;b&gt;Tell node master &lt;br&gt;that this particle&amp;nbsp;is&amp;nbsp;&lt;br&gt;&amp;nbsp;complete with iteration&lt;/b&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="319.5" y="797.5" width="190.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pi3bbSPv9wK64zZ6astG-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;strokeWidth=2;" edge="1" parent="1">
@@ -339,7 +339,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pi3bbSPv9wK64zZ6astG-64" value="&lt;b&gt;Tell node master &lt;br&gt;that this particle&amp;nbsp;is&amp;nbsp;&lt;br&gt;&amp;nbsp;complete with iteration&lt;/b&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="pi3bbSPv9wK64zZ6astG-64" value="&lt;b&gt;Tell node master &lt;br&gt;that this particle&amp;nbsp;is&amp;nbsp;&lt;br&gt;&amp;nbsp;complete with iteration&lt;/b&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="610" y="800" width="196.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pi3bbSPv9wK64zZ6astG-65" value="&lt;b&gt;Set velocity = euclidean distance&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
