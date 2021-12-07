@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T08:45:14.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="0IYg_6yOz5ay-FlvS_ab" version="15.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-07T08:45:49.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="3cIraDqFw6svHJxJpIJm" version="15.8.9" type="github">
   <diagram id="cM2ZmW4HxominK4Ddbyx" name="Page-1">
     <mxGraphModel dx="1038" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
         <mxCell id="Gxbs-bBxlD_UwTVCXYwM-14" value="&lt;b&gt;Receiving&lt;/b&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;labelBackgroundColor=default;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="80" y="240" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Gxbs-bBxlD_UwTVCXYwM-15" value="Receive message instruction to go into receiving state" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+        <mxCell id="Gxbs-bBxlD_UwTVCXYwM-15" value="Receive message instruction to go into receiving state" style="shape=mxgraph.sysml.accEvent;flipH=1;whiteSpace=wrap;align=center;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="405" y="132.5" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gxbs-bBxlD_UwTVCXYwM-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0.427;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Gxbs-bBxlD_UwTVCXYwM-14">
