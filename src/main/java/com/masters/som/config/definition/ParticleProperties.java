@@ -23,13 +23,14 @@ public class ParticleProperties {
     ActorPath nodePath;
     Boolean neighbourhoodFlag;
 
-    public ParticleProperties(String myName, int x, int y, int iteration, int totalIterations, Double weight1, Double weight2) {
+    public ParticleProperties(String myName, int x, int y, int iteration, int totalIterations) {
         this.myName = myName;
         this.x = x;
         this.y = y;
         this.iteration = iteration;
         this.totalIterations = totalIterations;
         this.neighbourhoodFlag = false;
+        this.BMU = false;
     }
 
     public void setWeightVector() {

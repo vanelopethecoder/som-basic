@@ -167,7 +167,6 @@ public class DataBasicActor extends AbstractBehavior<DataBasicActor.BaseDataCmd>
                 this.nodeMaestro.tell(new NodeMaestro.ReceiveData(this.features));
                 return Behaviors.same();
             }).build();
-
     }
 
     public static class ListingResponse implements DataBasicActor.BaseDataCmd {
@@ -176,6 +175,5 @@ public class DataBasicActor extends AbstractBehavior<DataBasicActor.BaseDataCmd>
         public ListingResponse(Receptionist.Listing listing) {
             this.listing = listing;
         }
-
     }
 }
