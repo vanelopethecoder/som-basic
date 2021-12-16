@@ -38,12 +38,13 @@ public class NodeMaestro {
     int totalIterations;
     int featureMapIndex;
     double neighbourhoodRadius;
+    int iteration_roll ;
 
     public NodeMaestro(ActorContext<Command> ctx, String name, HashMap<Integer, ArrayList<Integer>> inputVector) {
         this.ctx = ctx;
         this.name = name;
         this.currentIteration = 0;
-        this.totalIterations = 10;
+        this.totalIterations = 20;
         this.inputVectorMap = inputVector;
         this.featureMapIndex = 0;
         this.neighbourhoodRadius = 0;
@@ -347,19 +348,19 @@ public class NodeMaestro {
     private void calculateSizeOfRadius() throws IOException {
 
         if (currentIteration != 1) {
-//            int m_dMapRadius = Math.max(NodeMaestro.xMax, NodeMaestro.yMax) / 2;
-//
-//            double m_dTimeConstant = this.totalIterations / Math.log(m_dMapRadius);
-//
-//            // double check if this is correct
-//            double m_dNeighbourhoodRadius = m_dMapRadius * Math.exp(-this.currentIteration / m_dTimeConstant);
-//
-//            System.out.println(m_dNeighbourhoodRadius);
-//            // NodeMaestro.radius = m_dNeighbourhoodRadius;
-//            NodeMaestro.radius = NodeMaestro.radius - m_dNeighbourhoodRadius;
-            NodeMaestro.radius = NodeMaestro.radius - 1.0;
-        }
+            SplittableRandom random = new SplittableRandom();
+            int dice_roll = random.nextInt(1, 7);
 
+            if (dice_roll == 7) {
+                NodeMaestro.radius = NodeMaestro.radius - 1.0;
+                this.iteration_roll = 0;
+            } else if ((dice_roll + iteration_roll) >= 7) {
+                NodeMaestro.radius = NodeMaestro.radius - 1.0;
+                this.iteration_roll = Math.abs(dice_roll - iteration_roll);
+            } else {
+                this.iteration_roll = dice_roll;
+            }
+        }
         // write to file, the size of the radius? and the iteration?
 
         FileWriter fileWriter = new FileWriter("Radius.txt", true);
@@ -368,7 +369,6 @@ public class NodeMaestro {
         printWriter.println(this.currentIteration+"," + NodeMaestro.radius );
         printWriter.close();
         fileWriter.close();
-
     }
 
     private void calculateBMU() {
