@@ -44,9 +44,9 @@ public class NodeMaestro {
     public NodeMaestro(ActorContext<Command> ctx, String name, HashMap<Integer, ArrayList<Integer>> inputVector) {
         this.ctx = ctx;
         this.name = name;
-        this.currentIteration = 20;
+        this.currentIteration = 40;
         this.currentIteration_for_learning_rate = 0;
-        this.totalIterations = 20;
+        this.totalIterations = 40;
         this.inputVectorMap = inputVector;
         this.featureMapIndex = 0;
         this.neighbourhoodRadius = 0;
@@ -348,8 +348,8 @@ public class NodeMaestro {
     }
 
     double getRadiusSize() {
-         double y_sq = -((1 -  Math.pow(currentIteration, 2)/9)*25);
-         return Math.sqrt(y_sq);
+         double y_sq = -Math.tan(currentIteration_for_learning_rate);
+         return y_sq;
     }
 
     private void calculateSizeOfRadius() throws IOException {
