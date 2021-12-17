@@ -23,7 +23,7 @@ public class NodeMaestro {
     public static int threshold = 99;
     public static Double radius = 10.0;
     public static Double learning_rate = 0.1;
-
+    public static int iteration_count = 0;
 
     private final ActorContext<Command> ctx;
     private final String name;
@@ -34,6 +34,7 @@ public class NodeMaestro {
     int bmuEuclideanDistance=0;
 
     // this info will come from the main method
+    int currentIteration_for_learning_rate;
     int currentIteration;
     int totalIterations;
     int featureMapIndex;
@@ -43,7 +44,8 @@ public class NodeMaestro {
     public NodeMaestro(ActorContext<Command> ctx, String name, HashMap<Integer, ArrayList<Integer>> inputVector) {
         this.ctx = ctx;
         this.name = name;
-        this.currentIteration = 0;
+        this.currentIteration = 20;
+        this.currentIteration_for_learning_rate = 0;
         this.totalIterations = 20;
         this.inputVectorMap = inputVector;
         this.featureMapIndex = 0;
@@ -97,7 +99,8 @@ public class NodeMaestro {
     }
 
     private Behavior<Command> onlySendFeaturesToNodesAfterFirstIteration(ActorContext<Command> ctx, ReceiveData msg) {
-        this.currentIteration++;
+        this.currentIteration--;
+        this.currentIteration_for_learning_rate ++;
         this.inputVectorMap = msg.features;
         System.out.println("this is iteration " + currentIteration);
         confirmFeatureMapIndex();
@@ -114,7 +117,8 @@ public class NodeMaestro {
     private Behavior<Command> onlySendFeaturesToNodesAfterFirstIteration(ActorContext<Command> ctx) {
         confirmFeatureMapIndex();
         // send to all of the nodes
-        this.currentIteration++;
+        this.currentIteration--;
+        this.currentIteration_for_learning_rate ++;
         System.out.println("this is iteration " + currentIteration);
         this.nodePathMaps.forEach((baseActorRef, particleProperties) ->
                 {
@@ -205,14 +209,14 @@ public class NodeMaestro {
             if(particleProperties.getBMU()==true) {
 
                 Double theta = Math.exp(-(double) (0) /
-                        (2 * NodeMaestro.radius) * (currentIteration));
+                        (2 * NodeMaestro.radius) * (currentIteration_for_learning_rate));
 
                 ArrayList<Integer> inputVector = new ArrayList<>();
                 inputVector.add(this.inputVectorMap.get(this.featureMapIndex).get(0));
                 inputVector.add(this.inputVectorMap.get(this.featureMapIndex).get(1));
                 particleProperties.setWeightVector();
 
-                Double tempLearningRate = NodeMaestro.learning_rate * Math.exp(-this.currentIteration / ((totalIterations)*1.0));
+                Double tempLearningRate = NodeMaestro.learning_rate * Math.exp(-this.currentIteration_for_learning_rate / ((totalIterations)*1.0));
                 System.out.println("new weight " + particleProperties.getWeight1());
 
 
@@ -241,15 +245,14 @@ public class NodeMaestro {
                 // this one looks correct
 
                 Double theta = Math.exp(-(double) particleProperties.getBmuDistance_squared_Influence() /
-                        (2 * NodeMaestro.radius) * (currentIteration));
+                        (2 * NodeMaestro.radius) * (currentIteration_for_learning_rate));
 
                 ArrayList<Integer> inputVector = new ArrayList<>();
                 inputVector.add(this.inputVectorMap.get(this.featureMapIndex).get(0));
                 inputVector.add(this.inputVectorMap.get(this.featureMapIndex).get(1));
 
                 particleProperties.setWeightVector();
-                Double tempLearningRate = NodeMaestro.learning_rate * Math.exp(-this.currentIteration / ((totalIterations)*1.0));
-
+                Double tempLearningRate = NodeMaestro.learning_rate * Math.exp(-this.currentIteration_for_learning_rate / ((totalIterations)*1.0));
 
                 FileWriter fileWriter = null;
                 try {
@@ -303,7 +306,7 @@ public class NodeMaestro {
                             }
                         });
 
-                        if (this.currentIteration < this.totalIterations) {
+                        if (this.currentIteration > 0) {
 
                             FileWriter fileWriter = new FileWriter("uMatrixBefore" + currentIteration + ".txt", true);
                             PrintWriter printWriter = new PrintWriter(fileWriter);
@@ -315,7 +318,6 @@ public class NodeMaestro {
                                 baseActorRef.tell(new NodeActor.WriteFeaturesToFile(
                                         true, particleProperties, this.currentIteration, false));
                             });
-
                             return onlySendFeaturesToNodesAfterFirstIteration(context);
 
                         } else {
@@ -345,22 +347,15 @@ public class NodeMaestro {
         }
     }
 
+    double getRadiusSize() {
+         double y_sq = -((1 -  Math.pow(currentIteration, 2)/9)*25);
+         return Math.sqrt(y_sq);
+    }
+
     private void calculateSizeOfRadius() throws IOException {
 
-        if (currentIteration != 1) {
-            SplittableRandom random = new SplittableRandom();
-            int dice_roll = random.nextInt(1, 7);
+        NodeMaestro.radius = getRadiusSize();
 
-            if (dice_roll == 7) {
-                NodeMaestro.radius = NodeMaestro.radius - 1.0;
-                this.iteration_roll = 0;
-            } else if ((dice_roll + iteration_roll) >= 7) {
-                NodeMaestro.radius = NodeMaestro.radius - 1.0;
-                this.iteration_roll = Math.abs(dice_roll - iteration_roll);
-            } else {
-                this.iteration_roll = dice_roll;
-            }
-        }
         // write to file, the size of the radius? and the iteration?
 
         FileWriter fileWriter = new FileWriter("Radius.txt", true);
