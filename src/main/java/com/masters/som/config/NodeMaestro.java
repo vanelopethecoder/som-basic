@@ -44,7 +44,7 @@ public class NodeMaestro {
     public NodeMaestro(ActorContext<Command> ctx, String name, HashMap<Integer, ArrayList<Integer>> inputVector) {
         this.ctx = ctx;
         this.name = name;
-        this.currentIteration = 20;
+        this.currentIteration = -20;
         this.currentIteration_for_learning_rate = 0;
         this.totalIterations = 20;
         this.inputVectorMap = inputVector;
@@ -99,7 +99,7 @@ public class NodeMaestro {
     }
 
     private Behavior<Command> onlySendFeaturesToNodesAfterFirstIteration(ActorContext<Command> ctx, ReceiveData msg) {
-        this.currentIteration--;
+        this.currentIteration=this.currentIteration+1;
         this.currentIteration_for_learning_rate ++;
         this.inputVectorMap = msg.features;
         System.out.println("this is iteration " + currentIteration);
@@ -117,7 +117,7 @@ public class NodeMaestro {
     private Behavior<Command> onlySendFeaturesToNodesAfterFirstIteration(ActorContext<Command> ctx) {
         confirmFeatureMapIndex();
         // send to all of the nodes
-        this.currentIteration--;
+        this.currentIteration=this.currentIteration+1;
         this.currentIteration_for_learning_rate ++;
         System.out.println("this is iteration " + currentIteration);
         this.nodePathMaps.forEach((baseActorRef, particleProperties) ->
@@ -306,7 +306,7 @@ public class NodeMaestro {
                             }
                         });
 
-                        if (this.currentIteration > 0) {
+                        if (this.currentIteration_for_learning_rate < totalIterations) {
 
                             FileWriter fileWriter = new FileWriter("uMatrixBefore" + currentIteration + ".txt", true);
                             PrintWriter printWriter = new PrintWriter(fileWriter);
@@ -348,8 +348,8 @@ public class NodeMaestro {
     }
 
     double getRadiusSize() {
-         double y_sq = -((1 -  Math.pow(currentIteration, 2)/9)*25);
-         return Math.sqrt(y_sq);
+         double y_sq = Math.pow(currentIteration, 2);
+         return y_sq;
     }
 
     private void calculateSizeOfRadius() throws IOException {
