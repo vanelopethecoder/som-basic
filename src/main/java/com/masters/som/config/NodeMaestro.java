@@ -37,7 +37,6 @@ public class NodeMaestro {
     int currentIteration;
     int totalIterations;
     int featureMapIndex;
-    double neighbourhoodRadius;
     int iteration_roll ;
 
     public NodeMaestro(ActorContext<Command> ctx, String name, HashMap<Integer, ArrayList<Integer>> inputVector) {
@@ -47,7 +46,6 @@ public class NodeMaestro {
         this.totalIterations = 20;
         this.inputVectorMap = inputVector;
         this.featureMapIndex = 0;
-        this.neighbourhoodRadius = 0;
     }
 
     public static Behavior<Command> create(String name, HashMap<Integer, ArrayList<Integer>> inputVector) {
@@ -349,18 +347,19 @@ public class NodeMaestro {
 
         if (currentIteration != 1) {
             SplittableRandom random = new SplittableRandom();
-            int dice_roll = random.nextInt(1, 7);
+            int dice_roll = random.nextInt(1, 8);
 
             if (dice_roll == 7) {
                 NodeMaestro.radius = NodeMaestro.radius - 1.0;
                 this.iteration_roll = 0;
             } else if ((dice_roll + iteration_roll) >= 7) {
                 NodeMaestro.radius = NodeMaestro.radius - 1.0;
-                this.iteration_roll = Math.abs(dice_roll - iteration_roll);
+                this.iteration_roll =  Math.abs(dice_roll + iteration_roll) - 7;
             } else {
-                this.iteration_roll = dice_roll;
+                this.iteration_roll = this.iteration_roll + dice_roll;
             }
         }
+
         // write to file, the size of the radius? and the iteration?
 
         FileWriter fileWriter = new FileWriter("Radius.txt", true);
